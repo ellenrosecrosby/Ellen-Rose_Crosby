@@ -1,0 +1,136 @@
+body {
+    background-color: #FDEF74;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Nixie One", system-ui;
+    color: #FF7F45;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    color: #ff443a;
+}
+
+h3 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+}
+
+    /* ------------------------------------PAGE D'ACCUEIL------------------------------------ */
+div.fruitsline {
+    display: flex;
+    justify-content: space-around;
+}
+div.fruitsline img{
+    width: 40%;
+    height:40%;
+}
+
+    /* ------------------------------------ALL PAGES------------------------------------ */
+img {
+    max-width: 200px;
+    max-height:200px;
+    min-width: 200px;
+    min-height:200px;
+    transition: all 100ms ease-in-out;
+}
+
+img:hover {
+    scale: 1.1;
+    }
+
+    /* ------------------------------------PAGE FRIENDS------------------------------------ */
+.galerie {
+    margin-left: 7%;
+}
+
+.galerie:hover img {
+    opacity: 0.4;
+}
+
+.galerie img:hover {
+    opacity: 1;
+}
+
+    /* ------------------------------------PAGE FAVORITES------------------------------------ */
+.favorites {
+    display: flex;
+    justify-content: space-around;
+}
+
+.favorites a {
+    display: block;
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: "Oswald", sans-serif;
+    background-color: #ff443a;
+    margin:20px 0px;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 500px;
+    transition: all 300ms ease-in-out;
+    
+}
+
+.favorites a:hover {
+    background-color: whitesmoke;
+    color: #ff443a;
+    }
+
+    /* ------------------------------------PAGE ME------------------------------------ */
+/*.IdBadge img {
+    max-width: 280px;
+    max-height:500px;
+    min-width: 280px;
+    min-height:500px;
+}
+.IdBadge img:hover {
+    scale: 1;
+}
+ div.IdInfo h3 {
+    text-align: right;
+    margin-right: 30%;
+}
+div.IdInfo h2 {
+    text-align: left;
+    margin-left: 30%;
+} */
+
+.Idinfo img {
+    max-width: 85%;
+    max-height:85%;
+    min-width: 85%;
+    min-height:85%;
+    margin-right: 6.5%;
+    margin-left:  6.5%;
+}
+.Idinfo img:hover {
+    scale: 1;
+}
+
+    /* ------------------------------------PAGE HOBBIES------------------------------------ */
+div.hobbiesline img {
+    width: 40%;
+    height:40%;
+    margin:3.3% 3.3%;
+}
+
+.hobbiesline:hover img {
+    scale: 1;
+}
+
+    /* ------------------------------------PAGE SCHOOL------------------------------------ */
+
+div.pens img {
+    max-width: 10%;
+    max-height:60%;
+    min-width: 10%;
+    min-height:60%;
+    margin-right: 3%;
+    margin-left:  3%;
+}
