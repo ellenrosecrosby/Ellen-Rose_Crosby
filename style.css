@@ -127,10 +127,10 @@ div.hobbiesline img {
     /* ------------------------------------PAGE SCHOOL------------------------------------ */
 
 div.pens img {
-    max-width: 10%;
-    max-height:60%;
-    min-width: 10%;
-    min-height:60%;
+    max-width: 5%;
+    max-height:50%;
+    min-width: 5%;
+    min-height:50%;
     margin-right: 3%;
     margin-left:  3%;
 }
